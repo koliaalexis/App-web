@@ -12,11 +12,11 @@ st.write(search_input)
 
 #Intéraction avec OpenAI
 from openai import OpenAI
-client = OpenAI(api_key=search_input)
+clients = OpenAI(api_key=search_input)
 
 prompt = "A cute baby sea otter"
 
-image = client.images.generate(
+image = clients.images.generate(
     model="dall-e-2",
     prompt=test_input,
     size="512x512",

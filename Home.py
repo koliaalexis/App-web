@@ -22,3 +22,6 @@ st.sidebar.video("https://www.youtube.com/watch?v=0iU3yCYue_U")
 
 # Select bar 
 student_grad = st.selectbox("Selectionnez votre niveau d'étude", ["Bac", "Bac+2", "Bac+3"])
+
+#Selecct slider
+age = st.select_slider("Quel est votre age", range(0,99))

@@ -12,4 +12,7 @@ user_input = st.text_input ("Tapez votre texte : ")
 st.write(user_input)
 
 # Image 
-st.image("https://images.app.goo.gl/VUwdTLGgKuaEuVDS8")
+st.image("https://images.app.goo.gl/s8F241UyNzTfDBNh6")
+
+# Sidebare
+st.sidebar.title("Alexis Thomas")

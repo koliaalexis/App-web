@@ -16,3 +16,6 @@ st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWaPkuu9hTOXlu4U
 
 # Sidebare
 st.sidebar.title("Alexis Thomas")
+
+# Vidéo dans la sidebar
+st.sidebar.video("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWaPkuu9hTOXlu4U2yrDFAhiuzBIbo3B2B3g&s")

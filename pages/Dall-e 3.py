@@ -2,18 +2,19 @@ import streamlit as st
 
 st.title("Dall-e 3")
 
-#st.write ("Veuillez entré une description de l'image que vous souhaitez generer")
-
+#Champ de saisie
 text_input = st.text_input("Application Web - Open IA")
 st.write(text_input)
 
-sidebar_in = st.sidebar.text_input("Veuillez entré la clé Open IA")
+#Champ de saisie dans la sidebar (pour la clé OpenAI)
+sidebar_input = st.sidebar.text_input("Tapez la clé OpenAI ici :")
+st.write(sidebar_input)
 
 #Intéraction avec OpenAI
 from openai import OpenAI
-client = OpenAI(api_key=sidebar_in)
+client = OpenAI(api_key=sidebar_input)
 
-prompt = "A boat"
+prompt = "A cute baby sea otter"
 
 image = client.images.generate(
     model="dall-e-2",

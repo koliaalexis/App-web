@@ -6,7 +6,7 @@ st.title("Dall-e 3")
 text_input = st.text_input("Application Web - Open IA")
 st.write(text_input)
 
-#Champ de saisie dans la sidebar (pour la clé OpenAI)
+#Champ de saisie dans la sidebar
 sidebar_input = st.sidebar.text_input("Tapez la clé OpenAI ici :")
 st.write(sidebar_input)
 
